@@ -59,23 +59,6 @@
   color: #ccc;
 }
 
-.footer-socials {
-  margin-top: 10px;
-}
-
-.footer-socials i {
-  font-size: 20px;
-  margin-right: 10px;
-  cursor: pointer;
-  color: #fff;
-}
-
-.bcorp-logo {
-  height: 30px;
-  margin-left: 10px;
-  vertical-align: middle;
-}
-
 .footer-flags img {
   height: 24px;
   margin: 0 5px;
@@ -91,6 +74,25 @@
   margin-top: 20px;
   color: #ccc;
 }
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-socials svg {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-socials svg:hover {
+  color: #cccccc; /* optional hover color */
+}
+
+
 
 @media (max-width: 768px) {
   .footer-top {

@@ -5,6 +5,7 @@ import { FaRegUser, FaShoppingCart, FaBars } from 'react-icons/fa';
 import { MdOutlineHelpOutline } from 'react-icons/md';
 import { IoMdClose } from 'react-icons/io';
 import { FaChevronRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const NavMain = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,7 +25,7 @@ const NavMain = () => {
       </div>
 
       <div className="nav-logo">
-        <a href="#">Allbirds</a>
+        <Link to="/home">Allbirds</Link>
       </div>
 
       <div className="nav-right">
