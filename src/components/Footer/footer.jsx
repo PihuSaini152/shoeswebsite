@@ -84,7 +84,6 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2025 Allbirds, Inc. All Rights Reserved. Terms, Privacy & Accessibility</p>
         <p>Do Not Sell My Personal Information</p>
-        <h1>hello hemant</h1>
       </div>
     </footer>
   );
