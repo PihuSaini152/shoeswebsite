@@ -1,10 +1,12 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pageg/Home/home.jsx'
 import Nav from './components/nabebar/nav.jsx'
 import NavMain from './components/nabebar/navmain.jsx'
-import Nav3 from './pageg/navbar3/nav3.jsx'
 // import Footer from './components/Footer/footer.jsx'
+import Men from './pageg/Men/men.jsx/'
+import Women from './pageg/women/women.jsx/'
+
 function App() {
 
   return (
@@ -12,10 +14,11 @@ function App() {
     <Router>
     <Nav/>  
     <NavMain/>
-    <Nav3/>
     {/* <Footer/> */}
       <Routes>
         <Route path='/home' element={<Home/>}/>
+        <Route path='/men' element={<Men/>}/>
+        <Route path='/women' element={<Women/>}/>
       </Routes>
     </Router>
     
