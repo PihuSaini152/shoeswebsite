@@ -1,13 +1,20 @@
-import React from 'react';
+ import React from 'react';
 import './footer.css';
-import Usa from '/usa.jpg'
-import Canda from '/canada.jpg'
-import Us from '/australian.jpg'
-import Eg from '/england.jpg'
-import China from '/china.jpg'
-import Ua from '/EU.jpg'
-import Jp from '/japan.jpg'
+import { FaInstagram, FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
+import Usa from '/usa.jpg';
+import Canda from '/canada.jpg';
+import Us from '/australian.jpg';
+import Eg from '/england.jpg';
+import China from '/china.jpg';
+import Jp from '/japan.jpg';
+import Sk from '/south koria.jpg';
+import Uae from '/UAE.jpg';
+import Unkow from '/unknown.jpg';
+import Ger from '/german.jpg';
+import Lux from '/luxamberg.jpg';
+import Eu from '/EU.jpg';
+import Ind from '/india.jpg';
 
 const Footer = () => {
   return (
@@ -21,6 +28,7 @@ const Footer = () => {
           <p>Returns/Exchanges</p>
           <p>FAQ/Contact Us</p>
           <p>Afterpay</p>
+          <p>hello</p>
         </div>
 
         <div className="footer-section">
@@ -62,22 +70,28 @@ const Footer = () => {
             Oh, we have cute sheep, too. #allbirds
           </p>
           <div className="footer-socials">
-            <i className="fa-brands fa-instagram"></i>
-            <i className="fa-brands fa-facebook"></i>
-            <img src="/images/bcorp.png" alt="B Corporation Logo" className="bcorp-logo" />
+            <FaInstagram />
+            <FaFacebookF />
+            <FaTwitter />
+            <FaLinkedinIn />
           </div>
         </div>
 
         <div className="footer-flags">
-         <img src={Usa} />
-         <img src={Canda} />
-         <img src={Us} />
-         <img src={Eg} />
-         <img src={China} />
-         <img src={Ua} />
-         <img src={Jp} />
-         <img src={Us} />
-         
+          <img src={Usa} alt="USA" />
+          <img src={Canda} alt="Canada" />
+          <img src={Us} alt="Australia" />
+          <img src={Eg} alt="England" />
+          <img src={China} alt="China" />
+          <img src={Jp} alt="Japan" />
+          <br />
+          <img src={Sk} alt="South Korea" />
+          <img src={Uae} alt="UAE" />
+          <img src={Unkow} alt="Unknown" />
+          <img src={Ger} alt="Germany" />
+          <img src={Lux} alt="Luxembourg" />
+          <img src={Eu} alt="EU" />
+          <img src={Ind} alt="India" />
         </div>
       </div>
 
