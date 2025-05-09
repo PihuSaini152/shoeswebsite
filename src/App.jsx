@@ -11,21 +11,22 @@ function App() {
 
   return (
     <>
-    <Router>
-    <Nav/>  
-    <NavMain/>
-    <Nav3/>
-      <Routes>
-        <Route path='/home' element={<Home/>}/>
-        <Route path='/rerun' element={<Rerun/>}/>
-        <Route path='/Help' element={<Help/>}/>
-      </Routes>
-    <Footer/>
-    
-    </Router>
-    
+      <Router>
+        <Nav />
+        <NavMain />
+        <Nav3 />
+
+        <Routes>
+          <Route path='/home' element={<Home />} />
+          <Route path='/rerun' element={<Rerun />} />
+          <Route path='/Help' element={<Help />} />
+        </Routes>
+        <Footer />
+
+      </Router>
+
     </>
-  ) 
+  )
 }
 
 export default App
