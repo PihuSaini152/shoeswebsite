@@ -31,13 +31,13 @@ const NavMain = () => {
       <div className="nav-right">
         <ul className="nav-links right">
           <li><a href="#">Sustainability</a></li>
-          <li><a href="#">ReRun</a></li>
+          <li><Link to="/rerun">Rerun</Link></li>
           <li><a href="#">Stores</a></li>
         </ul>
         <div className="nav-icons">
           <FiSearch />
           <FaRegUser />
-          <MdOutlineHelpOutline />
+          <Link to="/Help"><MdOutlineHelpOutline /></Link>
           <FaShoppingCart />
         </div>
       </div>
@@ -58,7 +58,7 @@ const NavMain = () => {
           <a href="#">Sustainability</a>
           <span className="arrow"><FaChevronRight size={14} /></span>
         </li>
-        <li><a href="#">ReRun</a></li>
+        <li><a href="/rerun">ReRun</a></li>
         <li><a href="#">Stores</a></li>
         <li><a href="#">Account</a></li>
         <li><a href="#">Help</a></li>
