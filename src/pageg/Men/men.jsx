@@ -5,7 +5,8 @@ function men() {
   return (
     <>
     <div className="men-main">
-      <h1>helloo</h1>
+      <h1>muskan</h1>
+      
     </div>
     </>
   )
