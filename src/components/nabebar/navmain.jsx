@@ -5,6 +5,7 @@ import { FaRegUser, FaShoppingCart, FaBars } from 'react-icons/fa';
 import { MdOutlineHelpOutline } from 'react-icons/md';
 import { IoMdClose } from 'react-icons/io';
 import { FaChevronRight } from 'react-icons/fa';
+import { Link} from react
 
 const NavMain = () => {
   const [menuOpen, setMenuOpen] = useState(false);
