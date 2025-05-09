@@ -28,6 +28,7 @@ const Footer = () => {
           <p>Returns/Exchanges</p>
           <p>FAQ/Contact Us</p>
           <p>Afterpay</p>
+          <p>hello</p>
         </div>
 
         <div className="footer-section">
