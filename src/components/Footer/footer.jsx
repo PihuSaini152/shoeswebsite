@@ -79,7 +79,7 @@ const Footer = () => {
 
         <div className="footer-flags">
           <img src={Usa} alt="USA" />
-          <img src={Canda} alt="Canada" />
+          <img src={Canda} alt="Canada" /> 
           <img src={Us} alt="Australia" />
           <img src={Eg} alt="England" />
           <img src={China} alt="China" />

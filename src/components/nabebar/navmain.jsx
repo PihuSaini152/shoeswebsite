@@ -7,6 +7,7 @@ import { IoMdClose } from 'react-icons/io';
 import { FaChevronRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
+
 const NavMain = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -19,7 +20,7 @@ const NavMain = () => {
         <ul className="nav-links left">
           <li><a href="#">Men</a></li>
           <li><a href="#">Women</a></li>
-          <li><a href="#">Socks</a></li>
+          <li><Link to="/Socks">Socks</Link></li>
           <li><a href="#">New Arrivals</a></li>
         </ul>
       </div>
@@ -64,6 +65,7 @@ const NavMain = () => {
         <li><a href="#">Help</a></li>
       </ul>
     </nav>
+   
   );
 };
 
