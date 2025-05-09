@@ -1,20 +1,19 @@
- import React from 'react';
+import React from 'react';
 import './footer.css';
-import { FaInstagram, FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import Usa from '/public/Footer/usa.jpg';
+import Canda from '/public/Footer/canada.jpg';
+import Us from '/public/Footer/australian.jpg';
+import Eg from '/public/Footer/england.jpg';
+import China from '/public/Footer/china.jpg';
+import Jp from '/public/Footer/japan.jpg';
+import Sk from '/public/Footer/south koria.jpg';
+import Uae from '/public/Footer/UAE.jpg';
+import Unkow from '/public/Footer/unknown.jpg';
+import Ger from '/public/Footer/german.jpg';
+import Lux from '/public/Footer/luxamberg.jpg';
+import Eu from '/public/Footer/EU.jpg';
+import Ind from '/public/Footer/india.jpg';
 
-import Usa from '/usa.jpg';
-import Canda from '/canada.jpg';
-import Us from '/australian.jpg';
-import Eg from '/england.jpg';
-import China from '/china.jpg';
-import Jp from '/japan.jpg';
-import Sk from '/south koria.jpg';
-import Uae from '/UAE.jpg';
-import Unkow from '/unknown.jpg';
-import Ger from '/german.jpg';
-import Lux from '/luxamberg.jpg';
-import Eu from '/EU.jpg';
-import Ind from '/india.jpg';
 
 const Footer = () => {
   return (
@@ -28,7 +27,6 @@ const Footer = () => {
           <p>Returns/Exchanges</p>
           <p>FAQ/Contact Us</p>
           <p>Afterpay</p>
-          <p>hello</p>
         </div>
 
         <div className="footer-section">
@@ -70,15 +68,14 @@ const Footer = () => {
             Oh, we have cute sheep, too. #allbirds
           </p>
           <div className="footer-socials">
-            <FaInstagram />
-            <FaFacebookF />
-            <FaTwitter />
-            <FaLinkedinIn />
+            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-facebook"></i>
+            <img src="/images/bcorp.png" alt="B Corporation Logo" className="bcorp-logo" />
           </div>
         </div>
 
         <div className="footer-flags">
-          <img src={Usa} alt="USA" />
+        <img src={Usa} alt="USA" />
           <img src={Canda} alt="Canada" />
           <img src={Us} alt="Australia" />
           <img src={Eg} alt="England" />
@@ -91,7 +88,8 @@ const Footer = () => {
           <img src={Ger} alt="Germany" />
           <img src={Lux} alt="Luxembourg" />
           <img src={Eu} alt="EU" />
-          <img src={Ind} alt="India" />
+          <img src={Ind} alt="India" />
+         
         </div>
       </div>
 
