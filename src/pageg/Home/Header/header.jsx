@@ -8,16 +8,12 @@ function header() {
     <>
       <div className="headmain">
         <div className="slidebar">
+          
           <div className="slider-track">
-
 
           </div>
         </div>
       </div>
-
-
-
-
     </>
   )
 }

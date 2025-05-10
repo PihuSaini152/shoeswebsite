@@ -10,8 +10,11 @@ import Help from './pageg/Help/Help.jsx';
 function App() {
 
   return (
+
     <>
+    
       <Router>
+
         <Nav />
         <NavMain />
         <Nav3 />
