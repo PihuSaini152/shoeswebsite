@@ -1,0 +1,35 @@
+.women-main{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: auto;
+    padding-top: 30px;
+}
+.women, li, ul{
+    list-style: none;
+}
+.women h3{
+    font-size: 19px;
+}
+.women p{
+    font-size: 17px;
+    color: rgb(68, 67, 67);
+}
+.women1{
+    height: 140px;
+    width: 500px;
+    background-image: url(/women/womenimg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.women2{
+    height: 140px;
+    width: 500px;
+    background-image: url(/women/womenimg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
