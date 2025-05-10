@@ -7,6 +7,7 @@ import { IoMdClose } from 'react-icons/io';
 import { FaChevronRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
+
 const NavMain = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,8 +18,8 @@ const NavMain = () => {
           {menuOpen ? <IoMdClose size={24} /> : <FaBars size={20} />}
         </div>
         <ul className="nav-links left">
-          <li><Link to="/men">Men</Link></li>
-          <li><Link to="/women">Women</Link></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
           <li><a href="#">Socks</a></li>
           <li><a href="#">New Arrivals</a></li>
         </ul>
@@ -64,6 +65,7 @@ const NavMain = () => {
         <li><a href="#">Help</a></li>
       </ul>
     </nav>
+   
   );
 };
 
