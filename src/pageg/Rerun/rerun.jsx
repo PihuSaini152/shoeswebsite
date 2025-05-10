@@ -8,7 +8,7 @@ function rerun() {
             <div className="Allbirds-ReRun">
                 <img src={Rerun} alt="" />
                 <div className="Allbirds-ReRun-taxt">
-                    <h1>Allbirds ReRun™</h1>
+                    <h1>Allbirds ReRun™ hemant</h1>
                     <h1>A New Way To Get Old Favorites</h1>
                     <p>Allbirds ReRun™ is a marketplace where you can shop slightly imperfect and gently used products, extending their life and lowering our impact on the planet. Allbirds has partnered with Trove, a company that specializes in circular commerce, to run Allbirds ReRun™ on our behalf.
 
