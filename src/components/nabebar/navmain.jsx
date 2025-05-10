@@ -20,7 +20,7 @@ const NavMain = () => {
         <ul className="nav-links left">
           <li><a href="#">Men</a></li>
           <li><a href="#">Women</a></li>
-          <li><Link to="/Socks">Socks</Link></li>
+          <li><a href="#">Socks</a></li>
           <li><a href="#">New Arrivals</a></li>
         </ul>
       </div>
